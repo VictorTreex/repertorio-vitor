@@ -1,0 +1,140 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "C:/Users/Usuario/Downloads/vitor-s-dev-forge-main/vitor-s-dev-forge-main/src/styles.css": {
+    "file": "assets/styles-DAQGjKSA.css",
+    "src": "C:/Users/Usuario/Downloads/vitor-s-dev-forge-main/vitor-s-dev-forge-main/src/styles.css"
+  },
+  "_server-wz5jVVI4.js": {
+    "file": "assets/server-wz5jVVI4.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "src/router.tsx",
+      "src/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "_worker-entry-E94WHJ7o.js": {
+    "file": "assets/worker-entry-E94WHJ7o.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-wz5jVVI4.js"
+    ]
+  },
+  "src/assets/icon-bots.png": {
+    "file": "assets/icon-bots-DM8Ubhyl.png",
+    "src": "src/assets/icon-bots.png"
+  },
+  "src/assets/icon-clock.png": {
+    "file": "assets/icon-clock-yu2VxgIo.png",
+    "src": "src/assets/icon-clock.png"
+  },
+  "src/assets/icon-doramas.png": {
+    "file": "assets/icon-doramas-BQ90O-Wv.png",
+    "src": "src/assets/icon-doramas.png"
+  },
+  "src/assets/icon-frodfast.png": {
+    "file": "assets/icon-frodfast-B3y4_-yz.png",
+    "src": "src/assets/icon-frodfast.png"
+  },
+  "src/assets/icon-fullstack.png": {
+    "file": "assets/icon-fullstack-DpfDCCQy.png",
+    "src": "src/assets/icon-fullstack.png"
+  },
+  "src/assets/icon-lock.png": {
+    "file": "assets/icon-lock-C3WoGZyD.png",
+    "src": "src/assets/icon-lock.png"
+  },
+  "src/assets/icon-logo.png": {
+    "file": "assets/icon-logo-5xDzyelT.png",
+    "src": "src/assets/icon-logo.png"
+  },
+  "src/assets/icon-performance.png": {
+    "file": "assets/icon-performance-ly5mLNDl.png",
+    "src": "src/assets/icon-performance.png"
+  },
+  "src/assets/icon-rocket.png": {
+    "file": "assets/icon-rocket-BcvH8epx.png",
+    "src": "src/assets/icon-rocket.png"
+  },
+  "src/assets/icon-security.png": {
+    "file": "assets/icon-security-W0__atlT.png",
+    "src": "src/assets/icon-security.png"
+  },
+  "src/assets/icon-teddo.png": {
+    "file": "assets/icon-teddo-mrpkYLVn.png",
+    "src": "src/assets/icon-teddo.png"
+  },
+  "src/assets/icon-treexpay.png": {
+    "file": "assets/icon-treexpay-DfrTrwwg.png",
+    "src": "src/assets/icon-treexpay.png"
+  },
+  "src/router.tsx": {
+    "file": "assets/router-DUV9VaYa.js",
+    "name": "router",
+    "src": "src/router.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-wz5jVVI4.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-DAQGjKSA.css"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-DVDlbQob.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-wz5jVVI4.js"
+    ],
+    "assets": [
+      "assets/icon-logo-5xDzyelT.png",
+      "assets/icon-rocket-BcvH8epx.png",
+      "assets/icon-lock-C3WoGZyD.png",
+      "assets/icon-clock-yu2VxgIo.png",
+      "assets/icon-fullstack-DpfDCCQy.png",
+      "assets/icon-security-W0__atlT.png",
+      "assets/icon-performance-ly5mLNDl.png",
+      "assets/icon-doramas-BQ90O-Wv.png",
+      "assets/icon-teddo-mrpkYLVn.png",
+      "assets/icon-treexpay-DfrTrwwg.png",
+      "assets/icon-frodfast-B3y4_-yz.png",
+      "assets/icon-bots-DM8Ubhyl.png"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-Dhlnih1F.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-E94WHJ7o.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-Dnh7Bnkn.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-E94WHJ7o.js"
+    ]
+  }
+}
