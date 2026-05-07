@@ -80,7 +80,7 @@ export default {
       normalizedResponse.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
       normalizedResponse.headers.set(
         'Content-Security-Policy',
-        "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:; frame-ancestors 'none';"
+        "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.gstatic.com https://*.google.com; style-src 'self' 'unsafe-inline' https://*.gstatic.com https://*.google.com https://translate.googleapis.com; img-src 'self' data: https: https://*.gstatic.com https://*.google.com; font-src 'self' data: https://*.gstatic.com https://*.google.com; connect-src 'self' https: https://translate.googleapis.com; frame-ancestors 'none';"
       );
       normalizedResponse.headers.set(
         'Permissions-Policy',
