@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitor Dev — Full Stack Engineer</title>
+  <meta name="description" content="Vitor Dev Portfolio - Full Stack Engineer">
+  <meta name="author" content="Vitor Dev">
+  <meta property="og:title" content="Vitor Dev — Full Stack Engineer">
+  <meta property="og:description" content="Vitor Dev Portfolio - Full Stack Engineer">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@vitordev">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="/icon-logo.png">
+  <link rel="stylesheet" href="./assets/styles-DAQGjKSA.css">
+  <script type="module" src="./assets/index-BsYhd9AJ.js"></script>
+</head>
+<body style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;">
+  <div id="root"></div>
+  <script>
+    // Disable right-click context menu
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // Disable text selection
+    document.addEventListener('selectstart', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // Disable drag and drop
+    document.addEventListener('dragstart', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // Disable copy shortcuts
+    document.addEventListener('keydown', function(e) {
+      // Disable Ctrl+C, Ctrl+X, Ctrl+U (view source)
+      if (e.ctrlKey && (e.key === 'c' || e.key === 'x' || e.key === 'u')) {
+        e.preventDefault();
+        return false;
+      }
+      // Disable F12 (developer tools)
+      if (e.key === 'F12') {
+        e.preventDefault();
+        return false;
+      }
+      // Disable Ctrl+Shift+I (developer tools)
+      if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+        e.preventDefault();
+        return false;
+      }
+      // Disable Ctrl+Shift+J (console)
+      if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+        e.preventDefault();
+        return false;
+      }
+    });
+
+    // Disable view source via right-click
+    document.addEventListener('mousedown', function(e) {
+      if (e.button === 2) { // Right click
+        e.preventDefault();
+        return false;
+      }
+    });
+  </script>
+</body>
+</html>
